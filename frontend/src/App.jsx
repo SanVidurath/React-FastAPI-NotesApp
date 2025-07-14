@@ -26,17 +26,19 @@ function App() {
     <>
       <NavbarComponent />
       <CreateArea onAdd={addNote}/>
-      {notes.map((note, index) => {
-        return (
-          <Note 
-            key={index}
-            id={index}
-            title={note.title}
-            content={note.content}
-            onDelete={deleteNote}
-          />
-        )
-      })}
+      <div className="notes-container">
+        {notes.map((note, index) => {
+          return (
+            <Note
+              key={index}
+              id={index}
+              title={note.title}
+              content={note.content}
+              onDelete={deleteNote}
+            />
+          )
+        })}
+      </div>
       <Footer />
     </>
   );

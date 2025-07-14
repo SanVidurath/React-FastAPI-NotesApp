@@ -4,10 +4,8 @@
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 240px;
-  margin: 16px;
-  float: left;
-
 }
+
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
@@ -16,7 +14,7 @@
 .note-content {
   max-height: 150px;
   overflow-y: auto;
-  overflow-x: au;
+  overflow-x: auto;
   margin-bottom: 10px;
 }
 
