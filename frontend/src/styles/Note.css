@@ -1,0 +1,42 @@
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note-content {
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: au;
+  margin-bottom: 10px;
+}
+
+.note-content p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  border-radius: 20%;
+  position: relative;
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  padding: 2%;
+}
